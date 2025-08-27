@@ -1,4 +1,45 @@
-title: "Semantic HTML
-Published:false
-Description:An introduction to semantic HTML,why it matters,and examples you can use."
-tags:html,webdev.beginners,frontend
+## Introduction  
+When I first started learning HTML, I used <div> for almost everything. My pages would look okay in the browser, but the code always felt messy and hard to understand later. As I continued with my programming class, I was introduced to semantic HTML. At first, I thought it was just about using different tags, but I quickly learned it’s about giving
+meaning to web content.In this blog, I will explain what semantic HTML is, compare it with non-semantic HTML, and show how it improves *SEO, **accessibility*, and even performance. I’ll also share how I tested my pages with tools like W3C Validator and Chrome Lighthouse, and what results I got.
+---
+##Semantic HTML
+Semantic HTML means writing code that describes what the content is,instead of how it just looks.For example:
+'<header>' represents the top part of a page or section.
+'<nav>' contains navifation links.
+'<main>' the main content of the page
+'<article>' an independent piece of content.
+'<footer>' the bottom of a page or section.
+compared to '<div>',it doesn't say anything about meaning-it's just an empty container.
+so,**semantic HTML=meaningful structure**.
+
+## Semantic vs Non-semantic example
+### Non-semantic
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>reistration</title>
+</head>
+<body><h1>my blog</h1>
+<h2>semantics</>
+<h2>post</>
+<p><br></>
+<!--header-->
+
+###semantic example
+<header>
+<h1>my blog</h1>
+</header>
+<main>
+<article>
+<h2>why semantic html matters</h2>
+<p>using semantic html improves SEO and accessibility</p>
+</article>
+</main>
+<footer>
+<p>2025 my blog</p>
+</footer>
+
+the semantic example is easier to read,understand and maintain.
+
+
+,
