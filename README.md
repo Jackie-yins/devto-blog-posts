@@ -47,7 +47,7 @@ It is based on my blog post published on `[Dev.to](https://dev.to/Jackie-yins/se
 
 Made with ❤ by [Jackline]
 🐙 GitHub: @Jackie-yins
-✍ Dev.to: @Jackline
+✍ Dev.to: @Jackie-yins
 
 
    
